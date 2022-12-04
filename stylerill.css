@@ -1,0 +1,166 @@
+*{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: montserrat;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+    background-color: #242423;
+}
+
+.siap{
+    width : 1100px;
+    margin : auto;
+    position : relative;
+}
+
+.logo a{
+    font-size : 50px;
+    font-weight :800;
+    float : left;
+    font-family: 'Montserrat';
+    color: black;
+}
+
+.menu{
+    float: right;
+}
+
+a.signup {
+    background: #EFDC9E;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #3F392B;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.signup:hover {
+    background: #EAE9CF;
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #F5CB5C;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px; 
+
+}
+
+nav ul li :hover{
+    text-decoration: underline;
+}
+
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: first baseline;
+    color: white;
+    margin: 50px;
+    padding: 0px;    
+    font-family: 'Montserrat';
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.kolom .deskripsi{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: 'Montserrat';
+    color:#B2B2B2;
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: #B2B2B2;
+    width: 100%;
+    line-height: 50px;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 10px;
+    color: #B2B2B2;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+a.tombl-kng{
+    background: #F5CB5C;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #242423;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tombl-kng:hover{
+    background: #FFBF00;
+    text-decoration: none;
+}
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+html {
+overflow: scroll;
+overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+width: 0px;
+background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+background: #FF0000;
+}
